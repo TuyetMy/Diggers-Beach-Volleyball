@@ -5,7 +5,7 @@ body {
    line-height: 1.5
  
  }
- 
+
  .container {
  	width: 800px;
  	background-color: #fff;
@@ -42,6 +42,23 @@ body {
  p2{
  
  	text-align:center;
+ }
+ ul li{ list-style-image:url(images/vector_volleyball.jpg) }
+
+ li:nth-child(1){list-style-image:url(images/vector_volleyball_resize.jpg)
+ }
+ li:nth-child(2){list-style-image:url(images/vector_volleyball_resize.jpg)
+ }
+ li:nth-child(3){list-style-image:url(images/vector_volleyball_resize.jpg) 
+ }
+ li:nth-child(4){list-style-image:url(images/vector_volleyball_resize.jpg) 
+ }
+ li:nth-child(5){list-style-image:url(images/vector_volleyball_resize.jpg) 
+ }
+ 
+ ul {
+	 padding-left:150px;
+	 padding-right:150px;
  }
  
  .nav ul {
